@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "162456443452",
+    "project_id": "millennium-hotel-app",
+    "storage_bucket": "millennium-hotel-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162456443452:android:89a0be16af26dfaf18c139",
+        "android_client_info": {
+          "package_name": "com.example.millenniumhotelmobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162456443452-5l9cf8t4eh80c90qcsavn5k0os3eoibt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA__nKxLDEHaKB5Gh5O-m6K2phustc2bYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "162456443452-5l9cf8t4eh80c90qcsavn5k0os3eoibt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
