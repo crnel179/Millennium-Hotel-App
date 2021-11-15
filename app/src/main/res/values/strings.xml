@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Millennium Hotel Mobile App</string>
+    <string name="bannerLog">Log In</string>
+    <string name="bannerReg">Registration</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgotPassword">Forgot Password?</string>
+    <string name="register">Register</string>
 </resources>
