@@ -114,7 +114,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         mAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
+                    public void onComplete(@NonNull @org.jetbrains.annotations.NotNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
                             User user = new User(firstName, lastName, email);
 
@@ -122,7 +122,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                                     .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
                                     .setValue(user).addOnCompleteListener(new OnCompleteListener<Void>() {
                                 @Override
-                                public void onComplete(@NonNull Task<Void> task) {
+                                public void onComplete(@NonNull @org.jetbrains.annotations.NotNull Task<Void> task) {
 
                                     if (task.isSuccessful()){
                                         Toast.makeText(RegisterActivity.this, "Registration succsessful!", Toast.LENGTH_LONG).show();
